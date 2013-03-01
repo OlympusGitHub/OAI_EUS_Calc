@@ -1,0 +1,197 @@
+<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!-- the "no-js" class is for Modernizr. -->
+<html>
+	
+	<head id="ebus-summary" data-template-set="html5-reset">
+
+		<meta charset="utf-8">
+	
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+		<title></title>
+	
+		<meta name="title" content="">
+		<meta name="description" content="">
+		<!-- Google will often use this as its description of your page/site. Make it good. -->
+	
+		<meta name="google-site-verification" content="">
+	
+		<meta name="author" content="Steve Suranie">
+		<meta name="Copyright" content="© 2013 Olympus America, Inc. All Rights Reserved.">
+		
+		<META http-equiv="Content-Style-Type" content="text/css">
+	
+		<!-- CSS: screen, mobile & print are all in the same file -->
+		<link rel="stylesheet" href="_/css/style.css">
+	
+		<!-- all our JS is at the bottom of the page, except for Modernizr. -->
+		<!--<script src="_/js/modernizr-1.7.min.js"></script>-->
+	
+            <style type="text/css">
+                
+		        
+                ul {
+                    list-style-type: lower-alpha;
+                }
+                
+                li {
+                    font:200 .9em/1.0em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                    font-weight: 200;
+                    color: #666;
+                    font-size: 13px;
+                }
+                
+                tr.oddClass {
+                    background: #f7fbff;
+                }
+                
+                tr.evenClass {
+                    background: #fff;
+                }
+                
+                th {
+                    background:#f4f9fe;
+                    text-align:center;
+                    font:900 .9em/1.0em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                    color:#66a3d3;
+                    height: 20px;
+                    background: #666;
+                }
+                
+                td {
+                    color:#678197;
+                    border-bottom:1px solid #e5eff8;
+                    border-left:1px solid #e5eff8;
+                    padding:.3em 1em;
+                    text-align:left;
+                    font:200 .9em/1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                    vertical-align: top;
+                }
+                
+                p.header {
+                    color: #08107b;
+                    font:900 1.0em/1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                }
+                
+                p.paragraph {
+                    color: #666;
+                    font:200 .9em/1.2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                
+                #footnotes {
+                    margin: 0 0 0 40px;
+                    font:200 .7em/.9em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+                }
+                
+                </style>
+
+	</head>
+
+	<body>
+	
+		<div id="contentWrapper">
+			
+			<div id="contentHeader">
+				<p class="header">Assumptions - EUS Value Calculator</p>
+				<p class="paragraph">If your customized analysis used any of the original assumptions from the Input tab, please see below for a reference of how the number was generated.</p>
+			</div>
+			
+			
+			<div id="assumptons">
+				<table>
+					<thead>
+						<tr>
+							<th>Question</th>
+							<th>Assumption</th>
+							<th>Source</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>Labor costs per case</td>
+							<td>$96(nursing)</td>
+							<td>Nursing labor costs are based on Olympus 2012 Benchmarking Data of an average 3 hour total length of stay for EUS cases, and a 1:1 RN to patient ratio to compensate for other personnel costs (scheduler, tech support, etc.) at a rate of $32/hour. If physician is hospital employed, this figure also includes 1 MD hour/case at a rate of $200/hour.</td>
+						</tr>
+						
+						<tr>
+							<td>Variable costs per patient</td>
+							<td>$180(nursing)</td>
+							<td>Variable costs per patient is based on FNA usage in approximately 35% of all cases (Is EUS a financially viable for community based hospital? Gastrointestinal Endoscopy, Volume 69, Issue 2, 2009: Pages S253-S254R. Patel, C. O'loughlin, N. Narahari, A. Leonard, T. Handzel, H. Patterson), and also includes the cost of additional devices, sedation (medication and IV), endoscope reprocessing and PPE.</td>
+						</tr>
+						
+						<tr>
+							<td>Medicare Facility Fee per case <br /> (does not include modifiers)</td>
+							<td>$885</td>
+							<td>Estimated using 2012 Average HOPPS payment for CPT 43242. NOTE: Reduce reimbursement input if physician practice patterns will not typically include fine needle aspiration.  See reimbursement tab for details.  Source: 2012 Medicare Hospital Outpatient Final Rule.</td>
+						</tr>
+						
+						<tr>
+							<td>Non-Medicare Facility Fee per case</td>
+							<td>$974</td>
+							<td>Non-Medicare Facility Fee per case is an approximation assuming Medicare Facility Fee per case increased  by 10 percent. This amount based on 2012 Medicare Fee Schedule for CPT 43242 ($887*1.1=$975.70). See below for details if using "other" CPT code.</td>
+						</tr>
+						
+						<tr>
+							<td>Physician Fee per case</td>
+							<td>$430</td>
+							<td>Only applicable if the EUS physician is hospital employed. Adjust with weighted averages as needed. Other CPT codes for reference: CPT 43232 = $265, CPT 43238 = $297. See reimbursement tab for details. Source: 2012 Medicare Physician Final Rule.</td>
+						</tr>
+						
+						<tr>
+							<td>Anesthesia Fee per case</td>
+							<td>$108</td>
+							<td>Average Medicare Reimbursement for anesthesia during endoscopy is based on CPT 00801 (anesthesia code): 5 Base Units and CPT 00810 (anesthesia for lower intestinal endoscopic procedures, endoscope introduced distal to duodenum): 5 Base Units and $21.52 2012 National anesthesia conversion factor = $108 payment. Only applicable if a secondary provider delivers anesthesia during EUS.  Source: 2012 Medicare Physician Final Rule.</td>
+						</tr>
+						
+						<tr>
+							<td>Pathology Reimbursement</td>
+							<td>$146</td>
+							<td>Average Medicare Reimbursement for Pathology is estimated based on the 2012 Medicare HOPPS Final Rule payment w/o geographic adjustment for APC343 (CPT 88305-26 Level IV surgical pathology): $37.  Assuming that the pathologist is a hospital employee, the most recent Medicare physician fee schedule for CPT 88305-26 (pathologist's interpretation): $36.  Exclude this amount if the pathologist is not a hospital employee. It is assumed one case will result in two biopsies:  ($37 + $36) x 2 = $146. Source: 2012 Medicare Physician and Hospital Outpatient Final Rules.</td>
+						</tr>
+						
+						<tr>
+							<td>Surgery Reimbursement</td>
+							<td>$7,214</td>
+							<td>Average Medicare reimbursement for Surgery is based on the 2012 Medicare MS-DRG 328 (Stomach, Esophageal and Duodenal Proc w/o CC/MCC); Weight 1.3848, multiplied by 2012 National Inpatient Prospective Payment System Average Base rate excluding capital add-on ($5,209.74) = Payment $7,214. Source: 2012 Medicare Acute Inpatient PPS Final Rule.  </td>
+						</tr>
+						
+						<tr>
+							<td>Admissions Reimbursement</td>
+							<td>$5,631</td>
+							<td>National average (wage index greater than one) of the most common GI DRG rates is calculated by using the national adjusted full update standardized labor, non-labor and capital amounts. Source: August 18, 2011 Federal Register. Customers are encouraged to enter site-specific estimates based on claims data.</td>
+						</tr>
+						
+						<tr>
+							<td>Oncology Reimbursement</td>
+							<td>$10,388</td>
+							<td>Average Medicare Inpatient Reimbursement for Oncology is estimated based on the 2012 Medicare MS-DRG 484 (Chemotherapy w/o acute leukemia as secondary diagnosis w/o CC/MCC): Weight (1.9939) multiplied by 2012 National Inpatient Prospective Payment System Average Base rate excluding capital add-on ($5,209.74) = Payment $10,388. Source: 2012 Medicare Acute Inpatient PPS Final Rule. </td>
+						</tr>
+						
+						<tr>
+							<td>Radiology Reimbursment</td>
+							<td>$86</td>
+							<td>Average Medicare Reimbursement for Radiology is estimated based on the average APC 276 (Level I Digestive Radiology) payment - $86.  Source: 2012 Medicare Hospital Outpatient Final Rule.</td>
+						</tr>
+						
+						<tr>
+							<td>Anesthesia - Non Endoscopy Reimbursement</td>
+							<td>$151</td>
+							<td>Average Medicare Reimbursement for Anesthesia is estimated based on the 2012 Medicare Physician fee schedule for CPT 00790 (anesthesia for intraperitoneal procedures in upper abdomen incl. laparoscopy). 7 base units multiplied by 2012 National anesthesia conversion factor of $21.52 = Payment of $151.  Source: 2012 Medicare Physician Final Rule.</td>
+						</tr>
+						
+					</tbody>
+				</table>
+				
+			</div>	
+		</div>
+		
+	</body>
+	
+</html>
