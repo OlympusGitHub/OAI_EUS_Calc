@@ -11,6 +11,7 @@
 		DB759B7B16DFCCC70057D704 /* btnCloseX.png in Resources */ = {isa = PBXBuildFile; fileRef = DB759B7A16DFCCC70057D704 /* btnCloseX.png */; };
 		DB759B7F16DFE7C90057D704 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB759B7E16DFE7C90057D704 /* AVFoundation.framework */; };
 		DB759B8216DFEA0C0057D704 /* OLYMPUS_SL_MST.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB759B8116DFEA0C0057D704 /* OLYMPUS_SL_MST.mp3 */; };
+		DB759B9116E0ECB10057D704 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E3DD916C971F30074BB15 /* CoreGraphics.framework */; };
 		DB7E3DD616C971F30074BB15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E3DD516C971F30074BB15 /* UIKit.framework */; };
 		DB7E3DD816C971F30074BB15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E3DD716C971F30074BB15 /* Foundation.framework */; };
 		DB7E3DDA16C971F30074BB15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7E3DD916C971F30074BB15 /* CoreGraphics.framework */; };
@@ -199,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB759B9116E0ECB10057D704 /* CoreGraphics.framework in Frameworks */,
 				DB7E3DFA16C971F30074BB15 /* SenTestingKit.framework in Frameworks */,
 				DB7E3DFB16C971F30074BB15 /* UIKit.framework in Frameworks */,
 				DB7E3DFC16C971F30074BB15 /* Foundation.framework in Frameworks */,
